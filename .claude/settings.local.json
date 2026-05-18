@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "PowerShell(docker compose version *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(npm *)",
+      "PowerShell(docker info *)",
+      "Bash(docker version *)",
+      "WebFetch(domain:www.hemingways-collection.com)"
+    ]
+  }
+}
